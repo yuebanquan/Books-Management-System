@@ -5,7 +5,7 @@
 //选择功能
 void choose() {
 	Book* head = NULL;
-	int flag;	//控制功能
+	int flag;	//控制主菜单功能
 	int i = 1;		//控制循环,以-1终止
 
 	while (i > 0) {
@@ -27,7 +27,22 @@ void choose() {
 			mod(head);
 			break;
 		case 5://查找
-			printBook(head);
+			printSearchMenu();	//打印查询菜单
+			int flagSerch = 0;	//控制查询菜单功能
+			scanf_s("%d", &flagSerch);
+			switch (flagSerch) {
+			case 1:	//查询所有图书信息
+				printBook(head);
+				break;
+			case 2:	//根据编号查询
+				break;
+			case 3:	//根据书名查询
+				break;
+			case 4:	//根据作者查询
+				break;
+			defalt:	//返回主菜单
+				break;
+			}
 			break;
 		default:
 			i = -1;	//跳出循环，退出管理系统
