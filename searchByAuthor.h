@@ -4,4 +4,3 @@
 
 //根据作者查询
 void searchByAuthor(Book*);
-
