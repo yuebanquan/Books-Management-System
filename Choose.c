@@ -15,7 +15,7 @@ void choose() {
 		switch (flag) { //各操作数字对应菜单数字，通过n确定操作类型
 		case 1://创建
 			head = create(head);
-			sortById(head);
+			sortById(head);	//排序
 			break;
 		case 2://插入
 			insert(head);
