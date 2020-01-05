@@ -48,6 +48,9 @@
     <ClCompile Include="printSearchMenu.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="searchById.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Choose.h">
@@ -75,6 +78,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="printSearchMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="searchById.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

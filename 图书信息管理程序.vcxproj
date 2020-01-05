@@ -134,6 +134,7 @@
     <ClCompile Include="PrintBook.c" />
     <ClCompile Include="PrintMainMenu.c" />
     <ClCompile Include="printSearchMenu.c" />
+    <ClCompile Include="searchById.c" />
     <ClCompile Include="sortById.c" />
   </ItemGroup>
   <ItemGroup>
@@ -145,6 +146,7 @@
     <ClInclude Include="PrintBook.h" />
     <ClInclude Include="PrintMainMenu.h" />
     <ClInclude Include="printSearchMenu.h" />
+    <ClInclude Include="searchById.h" />
     <ClInclude Include="sortById.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

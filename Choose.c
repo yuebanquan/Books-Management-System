@@ -35,6 +35,7 @@ void choose() {
 				printBook(head);
 				break;
 			case 2:	//根据编号查询
+				searchById(head);
 				break;
 			case 3:	//根据书名查询
 				break;
