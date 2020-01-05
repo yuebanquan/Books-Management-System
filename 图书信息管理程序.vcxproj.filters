@@ -54,6 +54,9 @@
     <ClCompile Include="searchByName.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="searchByAuthor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Choose.h">
@@ -87,6 +90,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="searchByName.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="searchByAuthor.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

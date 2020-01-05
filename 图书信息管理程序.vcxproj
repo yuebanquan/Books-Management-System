@@ -134,6 +134,7 @@
     <ClCompile Include="PrintBook.c" />
     <ClCompile Include="PrintMainMenu.c" />
     <ClCompile Include="printSearchMenu.c" />
+    <ClCompile Include="searchByAuthor.c" />
     <ClCompile Include="searchById.c" />
     <ClCompile Include="searchByName.c" />
     <ClCompile Include="sortById.c" />
@@ -147,6 +148,7 @@
     <ClInclude Include="PrintBook.h" />
     <ClInclude Include="PrintMainMenu.h" />
     <ClInclude Include="printSearchMenu.h" />
+    <ClInclude Include="searchByAuthor.h" />
     <ClInclude Include="searchById.h" />
     <ClInclude Include="searchByName.h" />
     <ClInclude Include="sortById.h" />

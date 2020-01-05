@@ -41,6 +41,7 @@ void choose() {
 				searchByName(head);
 				break;
 			case 4:	//根据作者查询
+				searchByAuthor(head);
 				break;
 			defalt:	//返回主菜单
 				break;
