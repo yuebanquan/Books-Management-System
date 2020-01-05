@@ -42,6 +42,9 @@
     <ClCompile Include="PrintMainMenu.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="sortById.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Choose.h">
@@ -63,6 +66,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="PrintMainMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sortById.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

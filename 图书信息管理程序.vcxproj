@@ -133,6 +133,7 @@
     <ClCompile Include="mod.c" />
     <ClCompile Include="PrintBook.c" />
     <ClCompile Include="PrintMainMenu.c" />
+    <ClCompile Include="sortById.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Choose.h" />
@@ -142,6 +143,7 @@
     <ClInclude Include="mod.h" />
     <ClInclude Include="PrintBook.h" />
     <ClInclude Include="PrintMainMenu.h" />
+    <ClInclude Include="sortById.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

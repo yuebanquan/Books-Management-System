@@ -3,4 +3,4 @@
 #include "Book.c"
 
 //创建链表模块
-Book *create();
+Book *create(Book *);
