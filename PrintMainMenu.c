@@ -1,7 +1,7 @@
-#include"PrintMenu.h"
+#include"PrintMainMenu.h"
 
 //打印菜单
-void printMenu() {
+void printMainMenu() {
 	//system("cls");		// 清屏
 	system("color 71");	//设置字体和背景颜色
 
@@ -11,7 +11,7 @@ void printMenu() {
 	printf("\t ｜\t作者：蔡佳泉       ｜\n");
 	printf("\t ｜\t学号：1711216      ｜\n");
 	printf("\t ============================\n");
-	printf("\t ｜\t1.图书信息录入     ｜\n");
+	printf("\t ｜\t1.图书链表创建     ｜\n");
 	printf("\t ｜\t2.图书信息插入     ｜\n");
 	printf("\t ｜\t3.图书信息删除     ｜\n");
 	printf("\t ｜\t4.图书信息修改     ｜\n");

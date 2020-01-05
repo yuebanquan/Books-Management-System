@@ -76,6 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -126,13 +127,21 @@
     <ClCompile Include="Book.c" />
     <ClCompile Include="Choose.c" />
     <ClCompile Include="Create.c" />
+    <ClCompile Include="del.c" />
+    <ClCompile Include="Insert.c" />
     <ClCompile Include="main.c" />
-    <ClCompile Include="PrintMenu.c" />
+    <ClCompile Include="mod.c" />
+    <ClCompile Include="PrintBook.c" />
+    <ClCompile Include="PrintMainMenu.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Choose.h" />
     <ClInclude Include="Create.h" />
-    <ClInclude Include="PrintMenu.h" />
+    <ClInclude Include="del.h" />
+    <ClInclude Include="Insert.h" />
+    <ClInclude Include="mod.h" />
+    <ClInclude Include="PrintBook.h" />
+    <ClInclude Include="PrintMainMenu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

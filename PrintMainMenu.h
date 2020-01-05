@@ -3,4 +3,4 @@
 #include <stdlib.h>
 
 //¥Ú”°≤Àµ•
-void printMenu();
+void printMainMenu();

@@ -21,24 +21,48 @@
     <ClCompile Include="Book.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="PrintMenu.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Choose.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Create.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="PrintBook.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Insert.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="del.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintMainMenu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="PrintMenu.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Choose.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Create.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintBook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Insert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="del.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintMainMenu.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
