@@ -2,7 +2,7 @@
 
 //打印菜单
 void printMainMenu() {
-	//system("cls");		// 清屏
+	system("cls");		// 清屏
 	system("color 71");	//设置字体和背景颜色
 	putchar('\n');
 	printf("\t\t图书信息管理系统\t\n");	

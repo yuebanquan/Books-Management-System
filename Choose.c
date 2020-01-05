@@ -49,7 +49,9 @@ void choose() {
 			break;
 		default:
 			i = -1;	//跳出循环，退出管理系统
-			printf("\n成功退出管理系统！\n");
+			printf("\n成功退出管理系统！\n\n");
+			printf("按任意字符关闭窗口");
+			getch();
 			break;
 		}	
 	}
