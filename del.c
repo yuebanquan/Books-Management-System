@@ -2,6 +2,7 @@
 
 //删除节点模块
 void del(Book* head) {
+	system("cls");
 	//如果链表不为空，开始删除
 	if (head) {
 		Book* p, * q;//定义指针
