@@ -38,6 +38,7 @@ void choose() {
 				searchById(head);
 				break;
 			case 3:	//根据书名查询
+				searchByName(head);
 				break;
 			case 4:	//根据作者查询
 				break;
