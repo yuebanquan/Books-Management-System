@@ -1,0 +1,67 @@
+# Project: 图书信息管理程序
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = main.o Choose.o Book.o Create.o del.o Insert.o mod.o PrintBook.o PrintMainMenu.o printSearchMenu.o searchByAuthor.o searchById.o searchByName.o sortById.o
+LINKOBJ  = main.o Choose.o Book.o Create.o del.o Insert.o mod.o PrintBook.o PrintMainMenu.o printSearchMenu.o searchByAuthor.o searchById.o searchByName.o sortById.o
+LIBS     = -L"d:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"d:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+INCS     = -I"d:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"d:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"d:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"d:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"d:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"d:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"d:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = 图书信息管理程序.exe
+CXXFLAGS = $(CXXINCS) -std=gnu99 -g3
+CFLAGS   = $(INCS) -std=gnu99 -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+Choose.o: Choose.c
+	$(CC) -c Choose.c -o Choose.o $(CFLAGS)
+
+Book.o: Book.c
+	$(CC) -c Book.c -o Book.o $(CFLAGS)
+
+Create.o: Create.c
+	$(CC) -c Create.c -o Create.o $(CFLAGS)
+
+del.o: del.c
+	$(CC) -c del.c -o del.o $(CFLAGS)
+
+Insert.o: Insert.c
+	$(CC) -c Insert.c -o Insert.o $(CFLAGS)
+
+mod.o: mod.c
+	$(CC) -c mod.c -o mod.o $(CFLAGS)
+
+PrintBook.o: PrintBook.c
+	$(CC) -c PrintBook.c -o PrintBook.o $(CFLAGS)
+
+PrintMainMenu.o: PrintMainMenu.c
+	$(CC) -c PrintMainMenu.c -o PrintMainMenu.o $(CFLAGS)
+
+printSearchMenu.o: printSearchMenu.c
+	$(CC) -c printSearchMenu.c -o printSearchMenu.o $(CFLAGS)
+
+searchByAuthor.o: searchByAuthor.c
+	$(CC) -c searchByAuthor.c -o searchByAuthor.o $(CFLAGS)
+
+searchById.o: searchById.c
+	$(CC) -c searchById.c -o searchById.o $(CFLAGS)
+
+searchByName.o: searchByName.c
+	$(CC) -c searchByName.c -o searchByName.o $(CFLAGS)
+
+sortById.o: sortById.c
+	$(CC) -c sortById.c -o sortById.o $(CFLAGS)
